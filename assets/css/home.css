@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 193, 7);
+    background: linear-gradient( 90deg, rgba(255, 193, 7, 0.8748541652989321) 0%, rgba(85, 137, 89, 1) 24%, rgba(0, 17, 63, 1) 83%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userCard {
+    background-color: transparent;
+}
+
+.userInfo {
+    padding: 0.5rem 2rem;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 1rem;
+    width: fit-content;
+}
+
+.userInfo .imgSection {}
+
+.userInfo .userImg {
+    text-align: center;
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+}
+
+.userInfo .userImg img {
+    border-radius: 4px;
+    border: 2px solid #ffc107;
+}
+
+.userInfo .infoSection {
+    height: fit-content;
+}
+
+.userInfo .details {
+    background-color: #00113f;
+    border: 2px solid #14fe74;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userInfo .details .aboutInfo {
+    text-align: center;
+    color: #00113f;
+    background: #14fe74;
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 50%;
+}
+
+.userInfo .details .userDetails {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+}
+
+.userInfo .logout-btn {
+    width: auto;
+    margin: 1rem 0;
+    padding: 0.5rem 2.2rem;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 2rem;
+    text-transform: uppercase;
+}

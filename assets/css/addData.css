@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 193, 7);
+    background: linear-gradient( 90deg, rgba(255, 193, 7, 0.8748541652989321) 0%, rgba(85, 137, 89, 1) 24%, rgba(0, 17, 63, 1) 83%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.addData-Page {
+    padding: 0.5rem 2rem;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addData-Page .title-Details {
+    color: white;
+}
+
+.addData-Page .addData-Form .userImg {
+    border: 2px solid #ffc107;
+    border-radius: 0.8rem;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    height: 8rem;
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.addData-Page .addData-Form .userImg .edit {
+    position: absolute;
+    border: 2px solid #ffc107;
+    right: 0%;
+    border-right: none;
+    padding: 0;
+    background: #00113f;
+    bottom: 0%;
+    border-bottom: none;
+}
+
+.addData-Page .addData-Form .userImg img {
+    border-radius: 0.8rem;
+    height: inherit;
+    width: 100%;
+}
+
+.addData-Page .addData-Form .userName {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+    /* height: 3rem; */
+    width: 65%;
+}
+
+.addData-Page .addData-Form .userName input {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/eva/person-outline.svg?color=%234caf50&width=28&height=28") no-repeat center center;
+    background-position-x: 1%;
+}
+
+.addData-Page .addData-Form .userName input:focus {
+    box-shadow: none;
+}
+
+.addData-Page .addData-Form .emailDiv {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.addData-Page .addData-Form .emailDiv input {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/ic/baseline-email.svg?color=%234caf50&width=24&height=24") no-repeat center center;
+    background-position-x: 0%;
+}
+
+.addData-Page .addData-Form .emailDiv input:focus {
+    box-shadow: none;
+}
+
+.addData-Page .addData-Form .enrollmentDiv {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.addData-Page .addData-Form .enrollmentDiv input {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/ph/medal.svg?color=%234caf50&width=24&height=24") no-repeat center center;
+    background-position-x: 0%;
+}
+
+.addData-Page .addData-Form .enrollmentDiv input:focus {
+    box-shadow: none;
+}
+
+.addData-Page .addData-Form .city {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.addData-Page .addData-Form #inputCity {
+    border: none;
+    padding: 0.5rem 2rem;
+    color: white;
+    background: url("https://api.iconify.design/emojione-monotone/cityscape.svg?color=%234caf50&width=24&height=24") no-repeat center center;
+    background-position-x: 0%;
+}
+
+.addData-Page .addData-Form #inputCity:focus {
+    box-shadow: none;
+}
+
+.addData-Page .addData-Form .tenDigitNumber {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.addData-Page .addData-Form #inputNumber {
+    border: none;
+    padding: 0.5rem 2rem;
+    color: white;
+    background: url("https://api.iconify.design/ic/baseline-phone-iphone.svg?color=%234caf50&width=24&height=24") no-repeat center center;
+    background-position-x: 0%;
+}
+
+.addData-Page .addData-Form #inputNumber:focus {
+    box-shadow: none;
+}
+
+.addData-Page .addData-Form .passwordDiv {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.addData-Page .addData-Form .passwordDiv #inputPassword {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/ion/lock-closed-outline.svg?color=%234caf50&width=24&height=24") no-repeat center center;
+    background-position-x: 0%;
+}
+
+.addData-Page .addData-Form .passwordDiv #inputPassword:focus {
+    box-shadow: none;
+}
+
+.addData-Page .addData-Form a {
+    text-decoration: none;
+}
+
+.addData-Page .addData-Form .form-check input {
+    border: 2px solid #1976d2;
+    background-color: #00113f;
+}
+
+.addData-Page .addData-Form .form-check label {
+    color: #1976d2;
+}
+
+.addData-Page .upload-btn {
+    width: 100%;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+}
+
+.addData-Page .haveAccount p {
+    color: #707070;
+}
+
+.addData-Page .haveAccount a {
+    color: #ffc107;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .addData-Page .addData-Form .userName {
+        width: 60%;
+    }
+    .addData-Page .addData-Form .userImg {
+        width: 35%;
+    }
+}

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 193, 7);
+    background: linear-gradient( 90deg, rgba(255, 193, 7, 0.8748541652989321) 0%, rgba(85, 137, 89, 1) 24%, rgba(0, 17, 63, 1) 83%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.register-page {
+    padding: 0.5rem 2rem;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-page .titleRegister {
+    color: white;
+}
+
+.register-page .signin-Form .userNameDiv {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.register-page .signin-Form .userNameDiv input {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/eva/person-outline.svg?color=%234caf50&width=28&height=28") no-repeat center center;
+    background-position-x: 1%;
+}
+
+.register-page .signin-Form .userNameDiv input:focus {
+    box-shadow: none;
+}
+
+.register-page .signin-Form .passwordDiv {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.register-page .signin-Form .passwordDiv #inputPassword,
+.register-page .signin-Form .passwordDiv #inputCpassword {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/ion/lock-closed-outline.svg?color=%234caf50&width=24&height=24") no-repeat center center;
+    background-position-x: 0%;
+}
+
+.register-page .signin-Form .passwordDiv #inputPassword:focus,
+.register-page .signin-Form .passwordDiv #inputCpassword:focus {
+    box-shadow: none;
+}
+
+.register-page .signin-Form a {
+    text-decoration: none;
+}
+
+.register-page .signin-Form .form-check input {
+    border: 2px solid #1976d2;
+    background-color: #00113f;
+}
+
+.register-page .signin-Form .form-check label {
+    color: #1976d2;
+}
+
+.register-page .register-btn {
+    width: 100%;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+}
+
+.register-page .haveAccount p {
+    color: #707070;
+}
+
+.register-page .haveAccount a {
+    color: #ffc107;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .register-page .signin-Form .userName {
+        width: 60%;
+    }
+    .register-page .signin-Form .userImg {
+        width: 35%;
+    }
+}

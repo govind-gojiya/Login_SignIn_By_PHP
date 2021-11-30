@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 193, 7);
+    background: linear-gradient( 90deg, rgba(255, 193, 7, 0.8748541652989321) 0%, rgba(85, 137, 89, 1) 24%, rgba(0, 17, 63, 1) 83%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-page {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 22px;
+}
+
+.login-page .login-title h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.login-page .login-Form .passwordDiv,
+.login-page .login-Form .userNameDiv {
+    background-color: #00113f;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+}
+
+.login-page .login-Form .userNameDiv #inputUsername {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/eva/person-outline.svg?color=%234caf50&width=28&height=28") no-repeat center center;
+    background-position-x: 0%;
+    font-weight: bold;
+}
+
+.login-page .login-Form .passwordDiv #inputPassword {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background: url("https://api.iconify.design/ion/lock-closed-outline.svg?color=%234caf50&width=24&height=24") no-repeat center center;
+    background-position-x: 0%;
+    font-weight: bold;
+}
+
+.login-page .login-Form .userNameDiv #inputUsername:focus,
+.login-page .login-Form .passwordDiv #inputPassword:focus {
+    box-shadow: none;
+}
+
+.login-page .login-Form a {
+    text-decoration: none;
+}
+
+.login-page .login-Form .forgotPassword {
+    text-align: right;
+    color: #ffc107;
+    font-weight: bolder;
+}
+
+.login-page .login-Form .form-check input {
+    border: 2px solid #1976d2;
+    background-color: #2a2e45;
+}
+
+.login-page .login-Form .form-check label {
+    color: #1976d2;
+}
+
+.login-page .login-Form .login-btn {
+    width: 100%;
+    background-color: #1976d2;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 900;
+}
+
+.login-page .haveAccount p {
+    color: #707070;
+}
+
+.login-page .haveAccount a {
+    color: #ffc107;
+    font-weight: 900;
+    text-decoration: none;
+}
